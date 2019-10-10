@@ -1,0 +1,73 @@
+<keymap version="1" name="Default copy" parent="$default">
+  <action id="CloseContent">
+    <keyboard-shortcut first-keystroke="ctrl w" />
+  </action>
+  <action id="CodeCompletion">
+    <keyboard-shortcut first-keystroke="alt slash" />
+  </action>
+  <action id="CommentByLineComment">
+    <keyboard-shortcut first-keystroke="ctrl slash" />
+    <keyboard-shortcut first-keystroke="ctrl divide" />
+    <keyboard-shortcut first-keystroke="shift ctrl c" />
+  </action>
+  <action id="CompareTwoFiles" />
+  <action id="ContextHelp" />
+  <action id="CopyPaths" />
+  <action id="DatabaseView.CopyDdlAction" />
+  <action id="Diff.NextChange" />
+  <action id="Diff.PrevChange" />
+  <action id="Diff.ShowDiff" />
+  <action id="EditorDecreaseFontSize">
+    <keyboard-shortcut first-keystroke="shift alt minus" />
+  </action>
+  <action id="EditorDeleteLine">
+    <keyboard-shortcut first-keystroke="ctrl d" />
+  </action>
+  <action id="EditorDuplicate">
+    <keyboard-shortcut first-keystroke="alt d" />
+  </action>
+  <action id="EditorIncreaseFontSize">
+    <keyboard-shortcut first-keystroke="shift alt equals" />
+  </action>
+  <action id="EditorScrollDown">
+    <keyboard-shortcut first-keystroke="ctrl down" />
+    <mouse-shortcut keystroke="control button142" />
+  </action>
+  <action id="EditorScrollUp">
+    <keyboard-shortcut first-keystroke="ctrl up" />
+    <mouse-shortcut keystroke="control button143" />
+  </action>
+  <action id="EditorSelectWord" />
+  <action id="FileChooser.GotoDesktop" />
+  <action id="HippieCompletion" />
+  <action id="JumpToLastChange">
+    <keyboard-shortcut first-keystroke="alt left" />
+  </action>
+  <action id="NextTab" />
+  <action id="PreviousTab" />
+  <action id="RecentChanges" />
+  <action id="SendEOF" />
+  <action id="SmartTypeCompletion">
+    <keyboard-shortcut first-keystroke="alt comma" />
+  </action>
+  <action id="SplitHorizontally">
+    <keyboard-shortcut first-keystroke="alt open_bracket" />
+  </action>
+  <action id="SplitVertically">
+    <keyboard-shortcut first-keystroke="alt close_bracket" />
+  </action>
+  <action id="StringManipulation.SwitchStyleAction">
+    <keyboard-shortcut first-keystroke="alt u" />
+  </action>
+  <action id="StringManipulation.ToSnakeCaseOrCamelCase">
+    <keyboard-shortcut first-keystroke="shift alt c" />
+  </action>
+  <action id="openAssertEqualsDiff" />
+  <action id="osmedile.intellij.stringmanip.PopupChoiceAction" />
+  <action id="osmedile.intellij.stringmanip.RepeatAction">
+    <mouse-shortcut keystroke="button2 doubleClick" />
+  </action>
+  <action id="osmedile.intellij.stringmanip.ToCamelCaseAction">
+    <keyboard-shortcut first-keystroke="shift ctrl alt equals" />
+  </action>
+</keymap>
